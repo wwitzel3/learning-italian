@@ -1,0 +1,39 @@
+site_name: Immersion-Based Italian Learning
+docs_dir: site-src
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.footer
+    - toc.follow
+    - header.autohide
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+plugins:
+  - search:
+      lang:
+        - en
+        - it
+  - glightbox
+
+nav:
+  - Home: index.md
