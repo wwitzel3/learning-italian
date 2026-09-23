@@ -30,6 +30,7 @@ JAPANESE_TERMS = [
     "visual novel",
     "jmdict",
     "pitch accent",
+    "lapis",
 ]
 
 SECTIONS = {

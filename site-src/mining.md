@@ -12,7 +12,7 @@ Everything on this page builds on the [Setup](setup.md) page. If you haven't fin
 
 - Anki is open while you mine, with the AnkiConnect add-on installed. See [Connecting Yomitan to Anki](setup.md#connecting-yomitan-to-anki).
 - **Enable Anki integration** is on in Yomitan's settings.
-- **Configure Anki flashcards…** points at your Italian deck and the Lapis note type, with the markers from [Map Yomitan's markers to the fields](setup.md#map-yomitans-markers-to-the-fields).
+- **Configure Anki flashcards…** points at your Italian deck and the "Italian Mining" note type from Setup, with the markers from [Map Yomitan's markers to the fields](setup.md#map-yomitans-markers-to-the-fields).
 - The `Sentence` field uses `{cloze-prefix}<b>{cloze-body}</b>{cloze-suffix}`. That marker is what carries the context onto your card on every medium below.
 
 Two more Yomitan settings help once you mine every day. Both sit in the **Anki** section of Yomitan's settings.
@@ -79,16 +79,16 @@ asbplayer can pick up subtitles on its own from some streaming sites. Its compat
 - **RaiPlay.** Italy's public broadcaster, at [raiplay.it](https://www.raiplay.it/), streams films, series and documentaries for free. Programmes marked "sottotitolati" have Italian subtitles, which you turn on with the speech bubble icon in the player. You need a free account, and most of the catalogue only plays from inside Italy. RaiPlay is not on asbplayer's list of supported sites, so asbplayer won't load its subtitles for you.
 - **Subtitle files.** For films and series you have on disk, search [OpenSubtitles](https://www.opensubtitles.com/) for an Italian `.srt` file. Check that the file matches your version of the video, because a subtitle made for a different cut drifts out of sync.
 
-### Set up asbplayer for Lapis
+### Set up asbplayer for your note type
 
-asbplayer can fill some Lapis fields, and Yomitan fills the rest. Set asbplayer to fill only the fields Yomitan can't.
+asbplayer can fill some fields of your note type, and Yomitan fills the rest. Set asbplayer to fill only the fields Yomitan can't.
 
 1. Open asbplayer's settings and find the Anki section.
 2. Leave the **AnkiConnect URL** at `http://127.0.0.1:8765`, the same address Yomitan uses.
-3. Set **Deck** to your Italian deck and **Note Type** to **Lapis**.
+3. Set **Deck** to your Italian deck and **Note Type** to **Italian Mining**.
 4. Set the **Audio** field to `SentenceAudio`.
 5. Set the **Image** field to `Picture`.
-6. Leave the **Sentence**, **Word** and **Definition** fields empty. Yomitan already fills `Sentence`, `Expression` and `MainDefinition`, and it bolds the word in the sentence. If asbplayer wrote the sentence as well, it would replace Yomitan's version.
+6. Leave the **Sentence**, **Word** and **Definition** fields empty. Yomitan already fills `Sentence`, `Word` and `Definition`, and it bolds the word in the sentence. If asbplayer wrote the sentence as well, it would replace Yomitan's version.
 
 ### Load subtitles on a streaming site
 
@@ -151,7 +151,7 @@ Classics from Liber Liber and Gutenberg are in the public domain, so their Itali
 3. Click the book's cover. Koodo opens the book in a new tab.
 4. Read. When you hit an unknown word, hold **Shift** over it and add the card from Yomitan's popup as usual.
 
-The `Picture` and `SentenceAudio` fields stay empty on book cards. That's fine. If you want sound, Yomitan's word audio still fills `ExpressionAudio`.
+The `Picture` and `SentenceAudio` fields stay empty on book cards. That's fine. If you want sound, Yomitan's word audio still fills `Audio`.
 
 Italian novels often mark dialogue with guillemets or dashes, and a line of speech may run into the narration. Trim the sentence in Anki if it doesn't make sense on its own.
 

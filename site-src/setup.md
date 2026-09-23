@@ -117,31 +117,79 @@ To check that it works, leave Anki open and visit `http://127.0.0.1:8765` in you
 3. Leave **AnkiConnect server address** at `http://127.0.0.1:8765`, the address AnkiConnect uses unless you change it.
 4. By default, Yomitan tags every card it creates with "yomitan". If you don't want that tag, clear the **Card tags** box in the same section.
 
-The card format comes next, and it needs the note type from the next section. Install that first, then come back to **Configure Anki flashcards…**.
+The card format comes next, and it needs the note type from the [next section](#card-note-type). Create that first. The last step of that section, [Map Yomitan's markers to the fields](#map-yomitans-markers-to-the-fields), finishes the connection in **Configure Anki flashcards…**.
 
 ## Card note type
 
-A note type tells Anki which fields a card has and how to lay them out on screen. Don't build your own. Use Lapis, a free note type made for cards from Yomitan. The author of the guide this site is modelled on co-wrote it, and it needs no custom Yomitan templates.
+A note type tells Anki which fields a card has and how to lay them out on screen. Anki comes with a note type called Basic, which has a front and a back. You'll build an Italian note type from it, with six fields and two short templates.
 
-### Install Lapis
+### Create the note type
 
-1. Go to the [Lapis releases page](https://github.com/donkuri/lapis/releases) and download `Lapis.apkg` from the newest release.
-2. In Anki, open the **File** menu and choose **Import**, then pick the file you downloaded. You can also double-click the file.
-3. Anki adds a sample deck and the "Lapis" note type. You can delete the sample deck after you've looked at the example card. The note type stays.
+1. In Anki, open the **Tools** menu and choose **Manage Note Types**.
+2. Click **Add**. Anki lists the note types it can start from. Choose **Add: Basic** and click **OK**.
+3. Anki asks for a name. Type "Italian Mining" and click **OK**.
 
-### The fields you'll use
+The Anki manual explains the two kinds of choice in that list. "Add" starts from a note type that comes with Anki, and "Clone" copies one already in your collection. **Add: Basic** gives you a clean copy even if you have changed your own Basic note type.
 
-Lapis has more fields than an Italian learner needs, because it also covers features for other languages. Five of them hold what you want on every card:
+### Set up the fields
 
-| What it holds | Lapis field |
+Basic has two fields, `Front` and `Back`. Rename them and add four more.
+
+1. In **Manage Note Types**, select "Italian Mining" and click **Fields…**.
+2. Select `Front`, click **Rename** and type `Word`.
+3. Select `Back`, click **Rename** and type `Sentence`.
+4. Click **Add** and type `Definition`. Do the same for `Audio`, `SentenceAudio` and `Picture`.
+5. Check that the fields are in this order, then click **Save**. You can drag a field name to move it.
+
+| Field | What it holds |
 | --- | --- |
-| Word | `Expression` |
-| Sentence | `Sentence` |
-| Definition | `MainDefinition` |
-| Audio | `ExpressionAudio` |
-| Picture | `Picture` |
+| `Word` | The word you looked up, in its dictionary form. |
+| `Sentence` | The sentence you found it in, with the word in bold. |
+| `Definition` | A short English definition. |
+| `Audio` | A recording of the word. |
+| `SentenceAudio` | A recording of the whole sentence, which the [video workflow](mining.md#video-setup) fills in. |
+| `Picture` | An image for the card, if you want one. |
 
-Lapis also has a `SentenceAudio` field for a recording of the whole sentence, which the [video workflow](mining.md#video-setup) can fill in, and a `Glossary` field that holds the entries from all your dictionaries at once. Leave every other field empty. An empty field doesn't break the card.
+Keep `Word` as the first field. Yomitan and Anki check the first field to spot duplicates, and the word itself is the right thing to check.
+
+### Paste in the card templates
+
+The templates decide what each side of the card shows. The front shows only the word. The back shows the front again, then the sentence, the definition, both recordings and the picture. The `lang="it"` attribute tells your computer that the text is Italian, so it picks the right fonts and voice.
+
+In **Manage Note Types**, select "Italian Mining" and click **Cards…**. Anki opens the card editor with **Front Template** selected. Delete what is there and paste this:
+
+```html
+<div class="word" lang="it">{{Word}}</div>
+```
+
+Select **Back Template**, delete what is there and paste this:
+
+```html
+{{FrontSide}}
+
+<hr id="answer">
+
+<div class="sentence" lang="it">{{Sentence}}</div>
+<div class="definition">{{Definition}}</div>
+{{Audio}}
+{{SentenceAudio}}
+<div class="picture">{{Picture}}</div>
+```
+
+Select **Styling** and replace what is there with this. It is optional. It makes the word larger and keeps big pictures from filling the screen.
+
+```css
+.card {
+  font-family: sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+.word { font-size: 40px; }
+.definition { font-size: 18px; margin-top: 1em; }
+.picture img { max-width: 100%; max-height: 300px; }
+```
+
+Click **Save**. Anki plays the recordings on the back of the card and shows a play button for each one.
 
 ### Map Yomitan's markers to the fields
 
@@ -149,26 +197,23 @@ Yomitan fills each field from a marker, a word in curly brackets that it swaps f
 
 1. In Yomitan's settings, go to the **Anki** section and click **Configure Anki flashcards…**.
 2. Set **Deck** to your Italian deck.
-3. Set **Model** to **Lapis**. Yomitan loads the Lapis fields into the **Field** column.
+3. Set **Model** to **Italian Mining**. Yomitan loads its fields into the **Field** column.
 4. Type these markers into the **Value** column. You can also click the down arrow at the right of a value box and pick a marker from the list.
 
 | Field | Value | What Yomitan puts there |
 | --- | --- | --- |
-| `Expression` | `{expression}` | The dictionary form of the word, such as "parlare" for "parlano". |
-| `ExpressionAudio` | `{audio}` | A recording of the word. |
-| `SelectionText` | `{popup-selection-text}` | Any text you highlighted inside the popup before adding the card. |
-| `MainDefinition` | `{single-glossary-wty-it-en-gloss}` | The short English translation from one dictionary. |
+| `Word` | `{expression}` | The dictionary form of the word, such as "parlare" for "parlano". |
 | `Sentence` | `{cloze-prefix}<b>{cloze-body}</b>{cloze-suffix}` | The sentence around the word, with the word in bold as it appeared on the page. |
+| `Definition` | `{single-glossary-wty-it-en-gloss}` | The short English translation from one dictionary. |
+| `Audio` | `{audio}` | A recording of the word. |
+| `SentenceAudio` | leave empty | Yomitan has no recording of the sentence. |
 | `Picture` | leave empty | See below. |
-| `Glossary` | `{glossary}` | The entries from every dictionary you have turned on. |
 
-Leave all other values empty. If Yomitan has filled in a value you didn't ask for, delete it.
+If Yomitan has filled in a value you didn't ask for, delete it.
 
-For `MainDefinition`, a short translation is easier to review than a long entry. If you'd rather have the full English entry, use `{single-glossary-wty-it-en}` instead. The exact marker names depend on the dictionary names, so pick them from the down-arrow list to be sure you have them right.
+For `Definition`, a short translation is easier to review than a long entry. If you'd rather have the full English entry, use `{single-glossary-wty-it-en}` instead. The exact marker names depend on the dictionary names, so pick them from the down-arrow list to be sure you have them right.
 
-Keep `Expression` as the first field in the list. Yomitan and Anki check the first field to spot duplicates, and the word itself is the right thing to check.
-
-The `Picture` field stays empty in this setup, because a web page seldom has one image that fits the word. When you mine from video, you'll add a still from the scene. On a web page you can paste an image into the field in Anki by hand. If you want Yomitan to add one, it has two markers for this: `{screenshot}` captures the visible part of the page, and `{clipboard-image}` takes whatever image you last copied.
+The `Picture` field stays empty in this setup, because a web page seldom has one image that fits the word. When you mine from video, you'll add a still from the scene. On a web page you can paste an image into the field in Anki by hand. If you want Yomitan to add one, it has two markers for this. `{screenshot}` captures the visible part of the page, and `{clipboard-image}` takes whatever image you last copied.
 
 ### Add your first card
 
@@ -176,8 +221,6 @@ The `Picture` field stays empty in this setup, because a web page seldom has one
 2. Hold **Shift** over an Italian word on a web page.
 3. In the popup, click the add button beside the word at the top of the entry. Its tooltip starts with "Add".
 
-Switch to Anki and open your deck. The new card shows the word on the front. When you flip it, you see the sentence, the definition and the audio. If a field is empty or wrong, go back to **Configure Anki flashcards…** and check its value.
-
-If you want the sentence on the front of the card as a hint, type an "x" into the card's `IsWordAndSentenceCard` field in Anki. Lapis has a few other card styles, each switched on the same way. Its [README](https://github.com/donkuri/lapis) describes them. Use only one at a time.
+Switch to Anki and open your deck. The new card shows the word on the front. When you flip it, you see the sentence, the definition and the audio. If a field is empty or wrong, go back to **Configure Anki flashcards…** and check its value. If the layout looks wrong, check the templates under **Cards…**.
 
 Your setup is done. Head to the [Immersion](immersion.md) page to plan how you'll use it, or to [Recommendations](recommendations.md) for something to read or watch first.

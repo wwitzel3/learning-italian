@@ -57,7 +57,7 @@ The [Setup](setup.md) page walks you through every step. By the end of it you wi
 - Anki installed with FSRS turned on and a limit of 10 new cards a day.
 - Yomitan installed with the language set to Italian and the `wty-it-en` dictionaries.
 - AnkiConnect linking the two programs.
-- The Lapis note type, with fields for the word, the sentence, the definition, audio and a picture.
+- An Italian note type built from Anki's Basic, with fields for the word, the sentence, the definition, audio and a picture.
 
 Do it now, because the next stage depends on it.
 
@@ -131,7 +131,7 @@ Keep mining and keep your reviews daily.
 - [ ] Install Anki, turn on FSRS and set 10 new cards a day
 - [ ] Install Yomitan and the Italian dictionaries
 - [ ] Connect Yomitan to Anki with AnkiConnect
-- [ ] Install the Lapis note type and add your first card
+- [ ] Create the note type from the Setup page and add your first card
 - [ ] Import a starter vocabulary deck, or start building your own starter set
 - [ ] Read an overview of articles, articulated prepositions, the present tense and the passato prossimo
 - [ ] Watch, read or listen to native Italian every day

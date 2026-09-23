@@ -114,7 +114,7 @@ It keeps the Japanese site's look: tab navigation, light and dark modes, search,
 - Any translated version of the site, including counterparts to the Japanese site's French pages.
 - Deploying to GitHub Pages or anywhere else. The repo has no remote yet.
 - Copying any text or image from the Japanese site.
-- A custom Anki note type, deck or add-on. The guide recommends existing ones.
+- A shipped Anki note type, deck or add-on. The Setup page has the learner build a note type from Anki's Basic, because the maintained mining note types target Japanese.
 - Browser tests of the theme toggle, search box or image zoom. Material and glightbox own that behaviour.
 - Checking that external links are live.
 - An Italian media recommendation spreadsheet like the Japanese site's. The Recommendations page is a hand-written list.
