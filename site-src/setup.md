@@ -141,7 +141,7 @@ Lapis has more fields than an Italian learner needs, because it also covers feat
 | Audio | `ExpressionAudio` |
 | Picture | `Picture` |
 
-Lapis also has a `SentenceAudio` field for a recording of the whole sentence, which the video workflow can fill in, and a `Glossary` field that holds the entries from all your dictionaries at once. Leave every other field empty. An empty field doesn't break the card.
+Lapis also has a `SentenceAudio` field for a recording of the whole sentence, which the [video workflow](mining.md#video-setup) can fill in, and a `Glossary` field that holds the entries from all your dictionaries at once. Leave every other field empty. An empty field doesn't break the card.
 
 ### Map Yomitan's markers to the fields
 
@@ -178,6 +178,6 @@ The `Picture` field stays empty in this setup, because a web page seldom has one
 
 Switch to Anki and open your deck. The new card shows the word on the front. When you flip it, you see the sentence, the definition and the audio. If a field is empty or wrong, go back to **Configure Anki flashcards…** and check its value.
 
-If you want the sentence on the front of the card as a hint, type an "x" into the card's `IsWordAndSentenceCard` field in Anki. Lapis has a few other card styles, each switched on the same way; its [README](https://github.com/donkuri/lapis) describes them. Use only one at a time.
+If you want the sentence on the front of the card as a hint, type an "x" into the card's `IsWordAndSentenceCard` field in Anki. Lapis has a few other card styles, each switched on the same way. Its [README](https://github.com/donkuri/lapis) describes them. Use only one at a time.
 
 Your setup is done. Head to the [Immersion](immersion.md) page to plan how you'll use it, or to [Recommendations](recommendations.md) for something to read or watch first.

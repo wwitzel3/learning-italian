@@ -16,7 +16,7 @@ In practice this gives you a simple rule. Spend most of your hours understanding
 
 Native speakers know tens of thousands of words, and nobody taught them most of those words one by one. Reading researchers have studied where the words come from. William Nagy, Patricia Herman and Richard Anderson tested 352 school pupils in 1985 on hard words from passages they had read a few days earlier. In ["Learning Words from Context"](https://eric.ed.gov/?id=EJ311465), they reported small but reliable gains at every grade and ability level. The gain from each encounter is tiny. Over millions of words of reading, it adds up.
 
-Two findings from second-language research make this more concrete, and less rosy.
+Two findings from second-language research make this more concrete, and they also show its limits.
 
 - **You need to know nearly every word on the page.** Marcella Hu and Paul Nation found in 2000 that readers of English as a second language needed to know about 98% of the running words in a fiction text to understand it well enough without help. At 98%, one word in fifty is new. Their paper, ["Unknown vocabulary density and reading comprehension"](https://nflrc.hawaii.edu/rfl/item/43), is why this guide front-loads a starter vocabulary deck and recommends easy material first.
 - **One book teaches you very few words.** Rob Waring and Misako Takaki gave learners a graded reader and tested them on 25 target words. After three months, the average learner remembered the meaning of about one of them. Words met fewer than eight times were gone. Their study, ["At what rate do learners learn and retain new vocabulary from reading a graded reader?"](https://nflrc.hawaii.edu/rfl/item/78), supports reading a lot rather than reading a little.
@@ -31,13 +31,13 @@ Anki schedules each card this way. It shows you a card just before you are likel
 
 ### What's debated
 
-Nobody seriously disputes that you need a lot of input to learn a language. The argument is over whether input is enough and whether conscious study helps.
+Researchers on both sides agree that you need a lot of input to learn a language. The argument is over whether input is enough and whether conscious study helps.
 
 - **Output.** Merrill Swain studied Canadian French immersion students who had years of input. They understood French very well but still made many grammar errors when they spoke and wrote. In 1985 she proposed the output hypothesis. It says that speaking and writing push you to notice gaps in what you know. This guide agrees that output matters. It only suggests that you start once you have a base of input to draw on.
 - **Noticing.** Richard Schmidt argued in a 1990 paper in *Applied Linguistics*, ["The role of consciousness in second language learning"](https://academic.oup.com/applij/article-abstract/11/2/129/163482), that you have to consciously notice a feature of the input before you can acquire it. If he is right, some attention to form helps, and so does looking up a grammar point when a sentence confuses you.
-- **Testability.** Critics have long pointed out that "i+1" is hard to measure. Nobody can say exactly what a given learner's "i" is. That makes the strong version of Krashen's theory hard to prove or disprove.
+- **Testability.** Kevin Gregg in 1984 and Barry McLaughlin in 1987 argued that "i+1" is hard to measure. Nobody can say exactly what a given learner's "i" is. That makes the strong version of Krashen's theory hard to prove or disprove.
 
-This guide takes a middle position. Input does most of the work. A little grammar study, flashcards and later output speed it up. You don't need to settle the academic debate to follow it. You need to understand a lot of Italian, every day, for a long time.
+This guide takes a middle position. Input does most of the work. A little grammar study, flashcards and later output speed it up. You don't need to settle the academic debate to follow it. You need an hour or more of Italian you mostly understand, every day, for a year or longer.
 
 ## Certifications
 

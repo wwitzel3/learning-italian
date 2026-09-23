@@ -28,6 +28,10 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
 plugins:
   - search:
       lang:
@@ -37,8 +41,10 @@ plugins:
 
 nav:
   - Home: index.md
+  - Guide: guide.md
   - Setup: setup.md
   - Immersion: immersion.md
+  - Mining: mining.md
   - Resources: resources.md
   - Recommendations: recommendations.md
   - Miscellaneous: miscellaneous.md

@@ -4,7 +4,7 @@ This page lists the tools and sources this guide relies on, plus a few extras. E
 
 ## Italian learning guides
 
-These sites cover the same ground as this guide from other angles. Read one or two if you want a second opinion on method, but don't let comparing guides replace immersion.
+These sites teach Italian with other methods. Read one or two if you want a second opinion on method, but don't let comparing guides replace immersion.
 
 - [Podcast Italiano](https://www.podcastitaliano.com/). Davide Gemello's site teaches Italian through input, with podcast episodes sorted by level from A1 to C2. The episodes, a short pronunciation mini-course and an ebook on reaching an advanced level are free. His structured courses and PDF transcripts cost money.
 - [Italiano Automatico](https://italianoautomatico.com/). Alberto Arrighini argues for learning through listening rather than grammar drills. His material suits learners who can follow slow speech but freeze when they try to talk. He sells courses, and the videos are free.

@@ -4,7 +4,7 @@ Immersion means spending hours every day with Italian made for Italians. You wat
 
 ## How do I build a daily routine?
 
-Tie Italian to things you already do every day. Put a podcast on during your commute. Watch an episode of an Italian series with dinner instead of an English one. Read ten minutes of an Italian article before bed. A routine attached to habits you already have survives bad weeks. A routine that needs a free hour and fresh willpower does not.
+Tie Italian to things you already do every day. Put a podcast on during your commute. Watch an episode of an Italian series with dinner instead of an English one. Read ten minutes of an Italian article before bed. In a bad week you still commute and still eat dinner, so the Italian still happens. A routine that needs a free hour and fresh willpower is the first thing you drop.
 
 Split your day into three blocks:
 
@@ -22,15 +22,15 @@ Yes, and faster than you expect. The first month is the hardest part of the whol
 
 Italian gives English speakers a head start. Thousands of words share Latin roots with English, so *importante*, *possibile* and *informazione* are free. The spelling is regular, so once you know the rules you can read any word aloud. What slows you down early is speed. Italians speak fast and run words together, so *non lo so* comes out as one sound and *vado a casa* blurs into *vadacasa*.
 
-After a few hundred hours your ear adjusts. You start to hear word boundaries. You notice the double consonants that separate *nono* from *nonno* and *caro* from *carro*. Later you may notice that northern and southern speakers open and close their e and o differently, so *bene* sounds different in Milan and in Rome. Each of these starts as noise and becomes information. Around the point where you follow a sitcom without pausing, immersion stops feeling like work.
+After a few hundred hours your ear adjusts. You start to hear word boundaries. You notice the double consonants that separate *nono* from *nonno* and *caro* from *carro*. Later you may notice that northern and southern speakers open and close their e and o differently, so *bene* sounds different in Milan and in Rome. Around the point where you follow a sitcom without pausing, immersion stops feeling like work.
 
 ## When should I start speaking and writing?
 
-Later than you think, but not never. Wait until you understand most of what you hear in ordinary conversation, which for most learners takes somewhere between 1,000 and 1,500 hours of input. Speaking before that is mostly guessing, and the mistakes you repeat early become habits you have to unlearn later.
+Start later than feels natural. Wait until you understand most of what you hear in ordinary conversation. As a rough estimate, that takes 1,000 to 1,500 hours of input. Speaking before that is mostly guessing, and the mistakes you repeat early become habits you have to unlearn later.
 
-Two exceptions. First, practise pronunciation from day one. Read words aloud, hold your double consonants, and don't turn every final vowel into an English "uh". Second, if you live in Italy or have Italian family, talk to people now. Those conversations matter more than any schedule on this page.
+There are two exceptions. First, practise pronunciation from day one. Read words aloud, hold your double consonants, and don't turn every final vowel into an English "uh". Second, if you live in Italy or have Italian family, talk to people now. Those conversations matter more than any schedule on this page.
 
-When you do start, write before you speak. Writing gives you time to find the word. Keep a short diary in Italian, or post in Italian-language forums and subreddits about your hobbies. Then move to speaking with a patient partner. Your comprehension will carry most of the load, and your speaking will catch up in months rather than years.
+When you do start, write before you speak. Writing gives you time to find the word. Keep a short diary in Italian, or post in Italian-language forums and subreddits about your hobbies. Then move to speaking with a patient partner. Because you already understand so much, your speaking will catch up in months rather than years.
 
 ## Are textbooks bad?
 
@@ -38,19 +38,19 @@ No. They're slow. A textbook spends a chapter teaching what an hour of immersion
 
 A textbook helps at two points. At the very start, a short grammar overview makes your first native content far less confusing. Read one quickly, in a week or two, and don't do the exercises. Later, a grammar reference helps when a sentence won't parse, for example when you meet the *congiuntivo* or a pile of clitic pronouns like *gliel'ho detto*. Look it up, understand the example, and go back to your show. The [Resources](resources.md) page lists grammar references worth keeping open.
 
-The mistake is treating the textbook as the course and immersion as the reward. Make immersion the course and the textbook a reference.
+The mistake is treating the textbook as the course and immersion as the reward. Use immersion as the course, and open the textbook when a sentence won't parse.
 
 ## How do I stay motivated?
 
 Watch and read things you'd enjoy in English. If you're forcing yourself through a worthy film you find dull, stop and pick something else. You'll spend thousands of hours on this, and you can't sustain that on duty.
 
-Motivation also follows progress you can see. Once a month, rewatch an episode you found hard at the start. The difference will surprise you. Keep a list of the shows and books you've finished in Italian, and watch it grow.
+Motivation also follows progress you can see. Once a month, rewatch an episode you found hard at the start. You'll follow scenes that lost you the first time. Keep a list of the shows and books you've finished in Italian, and watch it grow.
 
-Expect dips. Everyone hits weeks where Italian feels pointless. On those weeks, lower the bar. Do your reviews and put on something easy and familiar. Don't quit, and don't start a new method out of boredom.
+Expect dips. You will hit weeks where Italian feels pointless. On those weeks, lower the bar. Do your reviews and put on something easy and familiar. Don't quit, and don't start a new method out of boredom.
 
 ## How do I choose what to watch and read?
 
-Pick by interest first and difficulty second. Enjoyment keeps you going. Difficulty only decides how often you pause.
+Pick by interest first and difficulty second. You'll watch more of what you enjoy, and hours are what count. Difficulty only decides how often you pause.
 
 Some rules of thumb for Italian:
 
@@ -84,9 +84,9 @@ Use both. Dubbed shows you know are the easiest native input you can find, which
 
 Use Italian subtitles. Don't use English ones.
 
-English subtitles turn Italian into background noise. Your eyes read the English, your brain follows the plot, and the Italian audio gets ignored. You'll feel like you're learning while very little sticks.
+English subtitles turn Italian into background noise. Your eyes read the English, your brain follows the plot, and you stop listening to the Italian. You'll feel like you're learning while you remember little.
 
-Italian subtitles do the opposite. They show you the words you're hearing, which matters most early on when you can't yet split fast speech into words. They also make mining possible, because Yomitan can look up subtitle text. RaiPlay, the free streaming service of the Italian public broadcaster, offers Italian subtitles on a selection of its on-demand films, series and documentaries. You need a free account to turn them on. Subtitles are Italian-only there, which suits you fine.
+Italian subtitles do the opposite. They show you the words you're hearing, which matters most early on when you can't yet split fast speech into words. They also make [mining](mining.md) possible, because Yomitan can look up subtitle text. RaiPlay, the free streaming service of the Italian public broadcaster, offers Italian subtitles on a selection of its on-demand films, series and documentaries. You need a free account to turn them on. Subtitles are Italian-only there, which suits you fine.
 
 Subtitles have a cost, too. With them on, you read instead of listen, and reading is easier. Aim to drop them over time. A good pattern is to watch an episode with Italian subtitles, then rewatch a scene without them. Once you're comfortable, switch to no subtitles for easy shows and keep them for hard ones or heavy dialect.
 
@@ -94,7 +94,7 @@ Subtitles have a cost, too. With them on, you read instead of listen, and readin
 
 Active listening is listening with your full attention. You follow the dialogue, notice words you don't know, and pause or rewind. Passive listening is Italian playing while your attention is elsewhere, such as washing up, driving or walking.
 
-Active listening is where you learn new things. Passive listening strengthens what you already half know. It trains your ear to the speed and sound of Italian and keeps the language in your head all day. It's worth far less per hour, but it costs you nothing, so do lots of it.
+Active listening is where you learn new things. Passive listening strengthens what you already half know. It trains your ear to the speed and sound of Italian and keeps the language in your head all day. It teaches you less per hour, but it costs you nothing, so do lots of it.
 
 The best passive material is audio you've already heard actively. Rip the audio from an episode you watched last week and play it on your commute. You'll understand more of it, and your brain can fill gaps from memory. You'll follow little of unfamiliar audio on a hard topic. Passive listening does little for a true beginner, so put the effort into active listening first.
 
@@ -108,7 +108,7 @@ Group classes are the weakest option. You spend most of the hour listening to ot
 
 ## I read too slowly. What do I do?
 
-Keep reading. Slow reading is the price of the early stage, and the only fix is more reading.
+Keep reading. Reading speed comes from reading, so the only fix is more of it.
 
 A few things make it easier:
 
@@ -129,8 +129,8 @@ The exception is a pre-made beginner deck of the most common few thousand words.
 
 ## How do I avoid arguments about method?
 
-Don't join them. Language-learning forums are full of people arguing about comprehensible input, grammar drills, speaking from day one, and whether Anki is necessary. You'll learn more Italian in the time one thread takes than you will from winning it.
+Don't join them. Language-learning forums are full of people arguing about comprehensible input, grammar drills, speaking from day one, and whether Anki is necessary. The hour you spend on one argument is an hour of Italian you didn't watch.
 
 If a method gets people to spend thousands of hours with Italian, it works. The differences between sensible methods are small next to the difference between doing a lot and doing a little. Pick one approach, follow it for six months, and judge it by what you can understand at the end.
 
-When you feel the urge to argue, put on an episode instead. If you want the theory behind this approach, read [Miscellaneous](miscellaneous.md), then go back to immersion. Judge any method by how much Italian you understand after using it.
+When you feel the urge to argue, put on an episode instead. If you want the theory behind this approach, read [Miscellaneous](miscellaneous.md), then go back to immersion.

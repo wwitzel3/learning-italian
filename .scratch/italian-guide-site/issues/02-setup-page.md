@@ -6,7 +6,7 @@
 
 **Status:** ready-for-agent
 
-- [x] The Setup page sits second in the nav, after Home.
+- [x] The Setup page sits in the spec's nav position, after Home and Guide.
 - [x] The Anki section covers installing Anki, turning on FSRS, and a recommended daily new-card limit with the reason for it.
 - [x] The Yomitan section covers installing Yomitan, installing current Wiktionary-derived Italian dictionaries, and connecting to Anki through AnkiConnect.
 - [x] The page recommends an existing note type and lists its fields: word, sentence, definition, audio and picture.

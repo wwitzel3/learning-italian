@@ -11,8 +11,10 @@ ROOT = Path(__file__).resolve().parent.parent
 
 PAGES = [
     ("Home", "index.html"),
+    ("Guide", "guide/index.html"),
     ("Setup", "setup/index.html"),
     ("Immersion", "immersion/index.html"),
+    ("Mining", "mining/index.html"),
     ("Resources", "resources/index.html"),
     ("Recommendations", "recommendations/index.html"),
     ("Miscellaneous", "miscellaneous/index.html"),
@@ -32,6 +34,22 @@ JAPANESE_TERMS = [
 
 SECTIONS = {
     "index.html": ["What this site is", "Who it's for", "How to use it", "Credits"],
+    "guide/index.html": [
+        "Learn pronunciation and spelling",
+        "Set up Anki and Yomitan",
+        "Learn basic grammar and vocabulary",
+        "Consume native content",
+        "Talk and write to Italian speakers",
+        "What's next",
+        "Checklist",
+    ],
+    "mining/index.html": [
+        "Setting up Anki and Yomitan for mining",
+        "Web setup",
+        "Video setup",
+        "Ebook setup",
+        "Comics setup",
+    ],
     "setup/index.html": [
         "Anki setup",
         "Yomitan setup",
@@ -104,6 +122,7 @@ def test_strict_build_succeeds(build):
 
 
 def test_nav_tabs_follow_the_page_order(site):
+    assert all((site / page).is_file() for _, page in PAGES)
     tabs = soup(site, "index.html").select("a.md-tabs__link")
     assert [tab.get_text(strip=True) for tab in tabs] == [title for title, _ in PAGES]
 
@@ -151,7 +170,22 @@ def test_search_index_covers_every_page(site):
     assert expected <= indexed
 
 
+def built_page_for(source):
+    relative = source.relative_to(ROOT / "docs")
+    if relative.stem in ("index", "README"):
+        return relative.parent / "index.html"
+    return relative.with_suffix("") / "index.html"
+
+
 def test_repo_docs_folder_is_not_published(site):
-    for source in (ROOT / "docs").rglob("*.md"):
-        built = site / source.relative_to(ROOT / "docs").with_suffix("")
-        assert not built.exists(), f"{source} was published"
+    sources = list((ROOT / "docs").rglob("*.md"))
+    assert sources
+    for source in sources:
+        assert not (site / built_page_for(source)).exists(), f"{source} was published"
+
+
+def test_guide_checklist_renders_as_checkboxes(site):
+    checklist = soup(site, "guide/index.html").find("h2", string="Checklist").find_next("ul")
+    items = checklist.find_all("li", recursive=False)
+    assert items
+    assert all(item.find("input", type="checkbox") for item in items)
