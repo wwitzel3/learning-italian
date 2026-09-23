@@ -37,3 +37,8 @@ plugins:
 
 nav:
   - Home: index.md
+  - Setup: setup.md
+  - Immersion: immersion.md
+  - Resources: resources.md
+  - Recommendations: recommendations.md
+  - Miscellaneous: miscellaneous.md

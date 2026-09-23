@@ -6,9 +6,9 @@
 
 **Status:** ready-for-agent
 
-- [ ] The Resources page sits in the spec's nav position among the pages that exist.
-- [ ] Sections cover other Italian-learning guides, spaced-repetition tools and dictionaries (monolingual and bilingual), pronunciation, grammar, listening (public broadcasters, podcasts, YouTube channels), and general resources.
-- [ ] Each entry links to the resource and says in one line what it is for.
-- [ ] Existing pages link to Resources where it fits.
-- [ ] The build test lists Resources in the nav order and lists its expected sections.
-- [ ] The full test suite passes.
+- [x] The Resources page sits in the spec's nav position among the pages that exist.
+- [x] Sections cover other Italian-learning guides, spaced-repetition tools and dictionaries (monolingual and bilingual), pronunciation, grammar, listening (public broadcasters, podcasts, YouTube channels), and general resources.
+- [x] Each entry links to the resource and says in one line what it is for.
+- [x] Existing pages link to Resources where it fits.
+- [x] The build test lists Resources in the nav order and lists its expected sections.
+- [x] The full test suite passes.

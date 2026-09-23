@@ -6,10 +6,10 @@
 
 **Status:** ready-for-agent
 
-- [ ] The Recommendations page sits in the spec's nav position among the pages that exist.
-- [ ] A starter section names three things to begin with.
-- [ ] Recommendations are grouped by medium (for example series, films, books, fumetti, podcasts, YouTube) with a rough difficulty for each.
-- [ ] The list is hand-written on the page, with no spreadsheet.
-- [ ] Existing pages link to Recommendations where it fits.
-- [ ] The build test lists Recommendations in the nav order and lists its expected sections.
-- [ ] The full test suite passes.
+- [x] The Recommendations page sits in the spec's nav position among the pages that exist.
+- [x] A starter section names three things to begin with.
+- [x] Recommendations are grouped by medium (for example series, films, books, fumetti, podcasts, YouTube) with a rough difficulty for each.
+- [x] The list is hand-written on the page, with no spreadsheet.
+- [x] Existing pages link to Recommendations where it fits.
+- [x] The build test lists Recommendations in the nav order and lists its expected sections.
+- [x] The full test suite passes.

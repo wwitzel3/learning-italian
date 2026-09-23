@@ -6,9 +6,9 @@
 
 **Status:** ready-for-agent
 
-- [ ] The Miscellaneous page sits in the spec's nav position among the pages that exist.
-- [ ] The input theory section explains comprehensible input in plain terms and names its sources.
-- [ ] The certifications section compares CILS, CELI, PLIDA and CERT.IT: who issues each, which levels it covers, and what it is usually accepted for.
-- [ ] Existing pages link to Miscellaneous where it fits.
-- [ ] The build test lists Miscellaneous in the nav order and lists its expected sections.
-- [ ] The full test suite passes.
+- [x] The Miscellaneous page sits in the spec's nav position among the pages that exist.
+- [x] The input theory section explains comprehensible input in plain terms and names its sources.
+- [x] The certifications section compares CILS, CELI, PLIDA and CERT.IT: who issues each, which levels it covers, and what it is usually accepted for.
+- [x] Existing pages link to Miscellaneous where it fits.
+- [x] The build test lists Miscellaneous in the nav order and lists its expected sections.
+- [x] The full test suite passes.

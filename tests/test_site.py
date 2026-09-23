@@ -11,6 +11,11 @@ ROOT = Path(__file__).resolve().parent.parent
 
 PAGES = [
     ("Home", "index.html"),
+    ("Setup", "setup/index.html"),
+    ("Immersion", "immersion/index.html"),
+    ("Resources", "resources/index.html"),
+    ("Recommendations", "recommendations/index.html"),
+    ("Miscellaneous", "miscellaneous/index.html"),
 ]
 
 JAPANESE_TERMS = [
@@ -27,6 +32,46 @@ JAPANESE_TERMS = [
 
 SECTIONS = {
     "index.html": ["What this site is", "Who it's for", "How to use it", "Credits"],
+    "setup/index.html": [
+        "Anki setup",
+        "Yomitan setup",
+        "Connecting Yomitan to Anki",
+        "Card note type",
+    ],
+    "immersion/index.html": [
+        "How do I build a daily routine?",
+        "Does immersion get easier?",
+        "When should I start speaking and writing?",
+        "Are textbooks bad?",
+        "How do I stay motivated?",
+        "How do I choose what to watch and read?",
+        "What about regional accents and dialects?",
+        "Is Italian-dubbed media good immersion?",
+        "Should I use subtitles?",
+        "What's the difference between active and passive listening?",
+        "Should I get a tutor or take classes?",
+        "I read too slowly. What do I do?",
+        "Is mining words from a dictionary worth it?",
+        "How do I avoid arguments about method?",
+    ],
+    "resources/index.html": [
+        "Italian learning guides",
+        "Flashcards and dictionaries",
+        "Pronunciation",
+        "Grammar",
+        "Listening",
+        "General resources",
+    ],
+    "recommendations/index.html": [
+        "Start here",
+        "Series",
+        "Films",
+        "Books",
+        "Fumetti",
+        "Podcasts",
+        "YouTube",
+    ],
+    "miscellaneous/index.html": ["Why input works", "Certifications"],
 }
 
 

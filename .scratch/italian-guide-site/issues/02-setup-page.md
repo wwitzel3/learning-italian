@@ -6,11 +6,11 @@
 
 **Status:** ready-for-agent
 
-- [ ] The Setup page sits second in the nav, after Home.
-- [ ] The Anki section covers installing Anki, turning on FSRS, and a recommended daily new-card limit with the reason for it.
-- [ ] The Yomitan section covers installing Yomitan, installing current Wiktionary-derived Italian dictionaries, and connecting to Anki through AnkiConnect.
-- [ ] The page recommends an existing note type and lists its fields: word, sentence, definition, audio and picture.
-- [ ] Before writing, the agent checks the current Yomitan docs for Italian language support and dictionary names, and does not rely on memory.
-- [ ] Screenshots, if any, are new images, and the page reads fine without them.
-- [ ] The build test lists Setup in the nav order and lists its expected sections.
-- [ ] The full test suite passes.
+- [x] The Setup page sits second in the nav, after Home.
+- [x] The Anki section covers installing Anki, turning on FSRS, and a recommended daily new-card limit with the reason for it.
+- [x] The Yomitan section covers installing Yomitan, installing current Wiktionary-derived Italian dictionaries, and connecting to Anki through AnkiConnect.
+- [x] The page recommends an existing note type and lists its fields: word, sentence, definition, audio and picture.
+- [x] Before writing, the agent checks the current Yomitan docs for Italian language support and dictionary names, and does not rely on memory.
+- [x] Screenshots, if any, are new images, and the page reads fine without them.
+- [x] The build test lists Setup in the nav order and lists its expected sections.
+- [x] The full test suite passes.
