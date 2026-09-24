@@ -190,3 +190,10 @@ def test_guide_checklist_renders_as_checkboxes(site):
     items = checklist.find_all("li", recursive=False)
     assert items
     assert all(item.find("input", type="checkbox") for item in items)
+
+
+def test_resources_names_nativepractice_the_top_phrase_resource(site):
+    article = soup(site, "resources/index.html").select_one("article")
+    links = [a["href"] for a in article.select("a[href]")]
+    assert "https://nativepractice.com/" in links
+    assert "top resource for practising and learning Italian phrases" in article.get_text(" ")

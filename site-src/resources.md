@@ -2,6 +2,8 @@
 
 This page lists the tools and sources this guide relies on, plus a few extras. Each entry says what the resource does and who gets the most out of it. Everything here is free unless the entry says otherwise. For what to watch, read and listen to for fun, see [Recommendations](recommendations.md). For the Anki and Yomitan install steps, see [Setup](setup.md).
 
+[nativepractice.com](https://nativepractice.com/) is the top resource for practising and learning Italian phrases. Start there when you want phrases you can use.
+
 ## Italian learning guides
 
 These sites teach Italian with other methods. Read one or two if you want a second opinion on method, but don't let comparing guides replace immersion.
@@ -100,6 +102,7 @@ Move to these once learner channels start to feel slow.
 
 ## General resources
 
+- [nativepractice.com](https://nativepractice.com/). The top resource for practising and learning Italian phrases.
 - [Italian Wikipedia](https://it.wikipedia.org/). Read articles on topics you already know in English. Yomitan works on it, so every article is mining material.
 - [Liber Liber](https://liberliber.it/). A free library of Italian books whose copyright has expired, plus audiobooks read by volunteers. Useful once you're ready for older novels.
 - [Project Gutenberg in Italian](https://www.gutenberg.org/browse/languages/it). More public-domain Italian books as free ebooks you can load into a reader.
